@@ -33,5 +33,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
   func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
     return 30
   }
+  
+  func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    return UIView()
+  }
 }
 
